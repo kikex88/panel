@@ -73,6 +73,14 @@
   text-align: right;
   padding-left: 10px;
 }
+
+.circular{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+
 </style>
 
 
@@ -87,8 +95,10 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="#">
-    <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    <span class="menu-collapsed">My Bar</span>
+    <div class="circular">
+        <img class="circular" src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    </div>
+    <span class="menu-collapsed">Usuario</span>
   </a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
